@@ -1,0 +1,380 @@
+#position{
+	margin: AUTO;
+}
+
+#wrapper{ 
+	position: ABSOLUTE; 
+	margin-left: AUTO; 
+	margin-right: AUTO; 
+	width: 1350px;
+	height: 1200px;
+	overflow: HIDDEN;
+	z-index: 0;
+}
+
+#header{ 
+	position: ABSOLUTE; 
+	width: 1350px;
+	height: 145px;
+	top: 45px;
+}
+
+#footer{ 
+	position: ABSOLUTE;
+	width: 1350px;
+	height: 132px;
+	top: 1068px;
+	right: 1px;
+}
+
+#bg{
+	position: ABSOLUTE;
+	bottom: -1415px;
+	z-index: -10;
+}
+
+#logo{
+	position: ABSOLUTE;
+	float: LEFT;
+	bottom: 15px;
+	left: 12px;
+}
+
+#socials{
+	left: 1250px;
+	position: ABSOLUTE;
+	top: -13px;
+}
+
+#menubar{ 
+	height: 45px;
+	width: 1350px;
+	background-color: BLACK;
+	position: ABSOLUTE;
+}
+
+#home{
+	margin-top: 7px;
+	float: LEFT;
+	margin-left: 2px;
+}
+
+#news{
+	margin-top: 8px;
+	float: LEFT;
+	margin-left: 6px;
+}
+
+#downloads{
+	margin-top: 8px;
+	float: LEFT;
+	margin-left: 8px;
+}
+
+#faq{
+	margin-top: 8px;
+	float: LEFT;
+	margin-left: 8px;
+}
+
+#footext{ 
+   position: ABSOLUTE;
+   top: 1px;
+   color: WHITE;
+   left: 250px;
+   font-family: COURIER NEW; 
+}
+
+#pnp{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 244px;
+}
+
+#dotc{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 344px;
+}
+
+#bir{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 444px;
+}
+
+#phil{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 544px;	
+}
+
+#dbm{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 644px;
+}
+
+#is{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 744px;
+}
+
+#df{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 844px;
+}
+
+#doh{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 944px;
+}
+
+#ltfrb{
+	position: ABSOLUTE;
+	top: 55px;
+	left: 1044px;
+}
+
+#renew{
+	position: ABSOLUTE;
+	left: 245px;
+	top: 155px;
+	width: 420px;
+	height: 180px;
+}
+
+#upgrade{
+	position: ABSOLUTE;
+	left: 670px;
+	top: 155px;
+	width: 420px;
+	height: 180px;
+}
+
+#register{
+	position: ABSOLUTE;
+	top: 340px;
+	left: 245px;
+	width: 420px;
+	height: 180px;
+}
+
+#chat{
+	position: ABSOLUTE;
+	top: 340px;
+	left: 670px;
+	width: 420px;
+	height: 180px;
+}
+
+#fontcolor{
+	color: WHITE;
+}
+
+#rotation{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+#rotation:hover{
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.renewsuccess{
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 100px;
+color: WHITE;
+background-color: #5BC236;
+width: 450px;
+height: 100px;
+text-align: center;
+position: ABSOLUTE;
+bottom: -470px;
+left: 780px;
+}
+
+.upgradesuccess{
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 100px;
+color: WHITE;
+background-color: #5BC236;
+width: 450px;
+height: 100px;
+text-align: center;
+position: ABSOLUTE;
+bottom: -470px;
+left: 700px;
+}
+
+.registersuccess{
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 100px;
+color: WHITE;
+background-color: #5BC236;
+width: 450px;
+height: 100px;
+text-align: center;
+position: ABSOLUTE;
+top: 400px;
+left: 780px;
+z-index: 0;
+}
+
+.fonthead{
+font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+font-size: 70px;
+color: WHITE;
+position: ABSOLUTE;
+top: 90px;
+left: 20px;
+}
+
+#printrenew{
+position: ABSOLUTE;
+bottom: -318px;
+left: 1210px;
+}
+
+#printupgrade{
+position: ABSOLUTE;
+bottom: -317px;
+left: 1135px;
+}
+
+#printregister{
+position: ABSOLUTE;
+top: 470px;
+left: 1210px;
+z-index: 10;
+}
+
+.p{
+font-family: courier new;
+color: white;
+font-size: 25px;
+}
+.form{
+position: ABSOLUTE;
+left: 600px;
+}
+.textbox{
+width: 200px;
+}
+.submit{
+margin-left: 27px;
+margin-top: 10px;
+background-color: black;
+color: white;
+height: 25px;
+width: 150px;
+}
+.admin{
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 100px;
+color: WHITE;
+background-color: #5BC236;
+width: 550px;
+height: 100px;
+text-align: center;
+position: ABSOLUTE;
+left: 50px;
+}
+.username{
+width: 550px;
+height: 100px;
+position: ABSOLUTE;
+top:225px;
+left: 610px;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 50px;
+}
+.password{
+width: 550px;
+height: 100px;
+position: ABSOLUTE;
+top: 326px;
+left: 610px;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 50px;
+}
+.loginadmin{
+width: 550px;
+height: 100px;
+position: ABSOLUTE;
+top: 433px;
+left: 610px;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 100px;
+background-color: BLACK;
+color: WHITE;
+}
+.tryagain{
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 70px;
+color: WHITE;
+background-color: #5BC236;
+width: 450px;
+height: 100px;
+text-align: center;
+position: ABSOLUTE;
+bottom: -470px;
+left: 780px;
+}
+.logoutbutton{
+position: ABSOLUTE;
+top: 4px;
+left: 40px;
+height: 40px;
+width: 100px;
+color: WHITE;
+background-color: BLACK;
+}
+.tryagainbutton{
+left: 990px;
+top: 185px;
+position: ABSOLUTE;
+height: 40px;
+width: 100px;
+color: WHITE;
+background-color: BLACK;
+}
+.adminbutton{
+position: ABSOLUTE;
+top: 8px;
+left: 40px;
+}
+.messageBox{
+height: 150px;
+width: 200px;
+}
+.tableUpg{
+position: ABSOLUTE;
+top: 200px;
+left: 70px;
+}
+.tableReg{
+position: ABSOLUTE;
+top: 200px;
+left: 650px;
+}
+.tableRen{
+position: ABSOLUTE;
+top: 600px;
+left: 70px;
+}
+.tableChat{
+position: ABSOLUTE;
+top: 600px;
+left: 750px;
+}
